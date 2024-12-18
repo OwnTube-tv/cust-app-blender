@@ -117,6 +117,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   build_android_tv_apk:
     needs: [build_info, customizations_setup]
@@ -125,6 +126,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   testflight_ios:
     if: ${{ github.event.inputs.upload_ios_to_testflight == 'true' }}
@@ -146,6 +148,7 @@ jobs:
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       code_sign_identity: iPhone Distribution
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   testflight_tvos:
     if: ${{ github.event.inputs.upload_tvos_to_testflight == 'true' }}
@@ -167,6 +170,7 @@ jobs:
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       code_sign_identity: Apple Distribution
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   build_ios_simulator_app:
     needs: [build_info, customizations_setup, choose_macos_runner]
@@ -176,6 +180,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   build_tvos_simulator_app:
     needs: [build_info, customizations_setup, choose_macos_runner]
@@ -185,3 +190,4 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true

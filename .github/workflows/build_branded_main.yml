@@ -108,6 +108,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       owntube_source: mykhailodanilenko/web-client
+      use_parent_repo_customizations: true
 
   build_android_apk:
     needs: [build_info, customizations_setup]

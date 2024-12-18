@@ -14,3 +14,4 @@ EXPO_PUBLIC_APPLE_TV_TOP_SHELF=../customizations/assets/appleTV/AppleTvTopShelf_
 EXPO_PUBLIC_APPLE_TV_TOP_SHELF_2X=../customizations/assets/appleTV/AppleTvTopShelf2x_3840x1440.png
 EXPO_PUBLIC_APPLE_TV_TOP_SHELF_WIDE=../customizations/assets/appleTV/AppleTvTopShelfWide_2320x720.png
 EXPO_PUBLIC_APPLE_TV_TOP_SHELF_WIDE_2X=../customizations/assets/appleTV/AppleTvTopShelfWide_4640x1440.png
+EXPO_PUBLIC_SPLASH_BG_COLOR='#335683'

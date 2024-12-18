@@ -1,0 +1,16 @@
+EXPO_PUBLIC_APP_NAME=BlenderTube
+EXPO_PUBLIC_APP_SLUG=BlenderTube
+EXPO_PUBLIC_IOS_BUNDLE_IDENTIFIER=com.owntubetv.blendertube
+EXPO_PUBLIC_ANDROID_PACKAGE=com.owntubetv.blendertube
+EXPO_PUBLIC_PRIMARY_BACKEND=video.blender.org
+EXPO_PUBLIC_FAVICON_URL=./assets/icon192x192.png
+EXPO_PUBLIC_SPLASH_IMAGE=./assets/splashScreen_1152x1152.png
+EXPO_PUBLIC_BASE_URL=/cust-app-blender
+EXPO_PUBLIC_ICON=./assets/icon512x512.png
+EXPO_PUBLIC_APPLE_TV_ICON=./assets/appleTV/AppleTvIcon_1280x768.png
+EXPO_PUBLIC_APPLE_TV_ICON_SMALL=./assets/appleTV/AppleTvIconSmall_400x240.png
+EXPO_PUBLIC_APPLE_TV_ICON_SMALL_2X=./assets/appleTV/AppleTvIconSmall2x800x480.png
+EXPO_PUBLIC_APPLE_TV_TOP_SHELF=./assets/appleTV/AppleTvTopShelf_1920x720.png
+EXPO_PUBLIC_APPLE_TV_TOP_SHELF_2X=./assets/appleTV/AppleTvTopShelf2x_3840x1440.png
+EXPO_PUBLIC_APPLE_TV_TOP_SHELF_WIDE=./assets/appleTV/AppleTvTopShelfWide_2320x720.png
+EXPO_PUBLIC_APPLE_TV_TOP_SHELF_WIDE_2X=./assets/appleTV/AppleTvTopShelfWide_4640x1440.png

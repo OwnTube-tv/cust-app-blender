@@ -107,7 +107,7 @@ jobs:
     with:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   build_android_apk:
@@ -116,7 +116,7 @@ jobs:
     with:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   build_android_tv_apk:
@@ -125,7 +125,7 @@ jobs:
     with:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   testflight_ios:
@@ -147,7 +147,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       code_sign_identity: iPhone Distribution
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   testflight_tvos:
@@ -169,7 +169,7 @@ jobs:
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
       code_sign_identity: Apple Distribution
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   build_ios_simulator_app:
@@ -179,7 +179,7 @@ jobs:
       runner-label: ${{ needs.choose_macos_runner.outputs.runner-label }}
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true
 
   build_tvos_simulator_app:
@@ -189,5 +189,5 @@ jobs:
       runner-label: ${{ needs.choose_macos_runner.outputs.runner-label }}
       customizations_env_content: ${{ needs.customizations_setup.outputs.CUSTOMIZATIONS_ENV_CONTENT }}
       build_info: ${{ needs.build_info.outputs.BUILD_INFO }}
-      owntube_source: mykhailodanilenko/web-client
+      owntube_source: OwnTube-tv/web-client
       use_parent_repo_customizations: true

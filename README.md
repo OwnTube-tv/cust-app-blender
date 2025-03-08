@@ -2,7 +2,7 @@
 
 Customized Android, AndroidTV, iOS and tvOS builds for Blender Tube brand of OwnTube-tv/web-client.
 
-Web version available at: https://owntube-tv.github.io/cust-app-blender/
+Web version available at: https://cust-app-blender.owntube.tv/
 
 App beta versions:
 

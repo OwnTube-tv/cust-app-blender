@@ -24,5 +24,5 @@ EXPO_PUBLIC_PROVIDER_LEGAL_EMAIL=legal@owntube.tv
 EXPO_PUBLIC_PROVIDER_CONTACT_EMAIL=hello@owntube.tv
 EXPO_APP_THEME_COLOR='#FFFFFF'
 EXPO_APP_BG_COLOR='#335683'
-EXPO_APP_DESCRIPTION='Videos on the Blender 3D creation software'
+EXPO_APP_DESCRIPTION='Videos on the Blender 3D creation software, embedded in OwnTube.tv video player'
 EXPO_PUBLIC_POSTHOG_API_KEY=phc_GQKgtk89daHe6WEkJGw2iQHzT4czc4yl51vYFntA9LG
